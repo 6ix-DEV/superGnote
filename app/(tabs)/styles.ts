@@ -99,4 +99,15 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '500',
   },
+   swipeable: {
+    height: 50,
+    alignItems: 'center',
+  },
+  rightAction:{
+    width: 100,
+    backgroundColor:'orange',
+    flexDirection:"row",
+    alignItems:'center',
+    padding:23
+  }
 });

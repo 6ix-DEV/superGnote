@@ -4,8 +4,10 @@ export const taskSlice = createSlice ({
 
     name:'task',
     initialState:[],
+    // liste des fonctions disponible 
     reducers:{
-        ajouter:(state,actions)=>{
+
+            ajouter:(state,actions)=>{
             console.log('ajouter une tache', actions.payload)
             //creation du nouveau state
             const newState = [...state, actions.payload]
